@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('dev') {
       steps {
-        sh 'ls -la'
+        sh 'pwd'
       }
     }
 
